@@ -1,0 +1,3 @@
+CompileFlags:
+  Add: [--target=thumbv7-none-eabi]
+  Remove: [-mfloat-abi=*]
