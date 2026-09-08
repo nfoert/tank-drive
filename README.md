@@ -1,8 +1,20 @@
 # tank-drive
-A test tank drive codebase.
+A test tank drive codebase for VEX U.
+
+## Organization
+- Everything is a class
+- Related groups of motors and sensors are subsystems
+    - Subsystems handle the low level direct communication and set up to hardware components
+- A series of actions on these subsystems are commands
+    - Commands use the Controls classes for button inputs, then based on those inputs drive motors through subsystems
 
 ## Installing
-Install the PROS extension.
+Clone this repository:
+```
+git clone https://github.com/nfoert/tank-drive
+```
+
+Install the PROS extension in VSCode.
 
 ### Linux notes
 If you're getting build errors that look like the following:
@@ -23,3 +35,6 @@ ldconfig -p | grep readline
     libreadline.so.8 (libc6,x86-64) => /usr/lib/libreadline.so.8
     libreadline.so (libc6,x86-64) => /usr/lib/libreadline.so
 ```
+
+## Build and Deploy
+Use the PROS vscode extension (via command palatte or PROS pane) to build and deploy the code.
