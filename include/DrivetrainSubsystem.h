@@ -1,7 +1,7 @@
 #pragma once
 
 #include "pros/motor_group.hpp"
-#include "constants.h"
+#include "Constants.h"
 
 /**
 * Subsystem for the drivetrain
