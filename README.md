@@ -8,6 +8,11 @@ A test tank drive codebase for VEX U.
 - A series of actions on these subsystems are commands
     - Commands use the Controls classes for button inputs, then based on those inputs drive motors through subsystems
 
+## To Do
+- [ ] Wheel-based odometry system
+- [ ] Stats on screen
+- [ ] Auton support
+
 ## Installing
 Clone this repository:
 ```
